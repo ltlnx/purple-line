@@ -98,7 +98,7 @@ void PINVerifier::verify(
                      req.e2eeVersion = 0;
 
                      parent.c_out->send_loginZ(req);
-                     parent.c_out->send([this, success]() {
+                     parent.c_out->send([this, verifier, success]() {
                          line::LoginResult req_result;
 
                          try
