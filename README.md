@@ -2,6 +2,18 @@
 
 libpurple (Pidgin, Finch) protocol plugin for [LINE](http://line.me/).
 
+This is an attempt to resurrect the functionality of this plugin.
+
+## TODO
+
+- [ ] sniff out what connections are used with the LINE Chromium plugin
+- [ ] update constants.hpp
+- [ ] check which files need to be updated to lift the ban
+
+The original README is preserved below:
+
+---
+
 ## WARNING: Line Corporation is currently banning people for using 3rd party clients
 
 There are multiple reports of accounts being permanently banned for using 3rd party clients such
